@@ -11,6 +11,8 @@ This thesis proposed a methodology for the automatic design of neural networks v
 License
 -------
 
+All software is licensed Apache 2.0 and copyright Graham Holker except the rand.h and rngs.h files.
+
 __Simplified:__ http://www.tldrlegal.com/license/apache-license-2.0-(apache-2.0)
 
 Copyright 2014 Graham Holker
