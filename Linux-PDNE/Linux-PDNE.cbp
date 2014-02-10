@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Linux-PDNE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Linux-PDNE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../Experiments/pipe_gep_shc" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="pipe_gep_shc.cfg.txt" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Linux-PDNE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../ActivationFunctions.cpp" />
+		<Unit filename="../ActivationFunctions.hpp" />
+		<Unit filename="../BitwiseWeight.cpp" />
+		<Unit filename="../BitwiseWeight.hpp" />
+		<Unit filename="../BitwiseWeights.cpp" />
+		<Unit filename="../BitwiseWeights.hpp" />
+		<Unit filename="../Boot.cpp" />
+		<Unit filename="../CGPGraph.cpp" />
+		<Unit filename="../CGPGraph.hpp" />
+		<Unit filename="../CGPModel.cpp" />
+		<Unit filename="../CGPModel.hpp" />
+		<Unit filename="../CGPModelNode.cpp" />
+		<Unit filename="../CGPModelNode.hpp" />
+		<Unit filename="../CfgFile.cpp" />
+		<Unit filename="../CfgFile.hpp" />
+		<Unit filename="../DataCollectionDataTypes.h" />
+		<Unit filename="../DataCollector.cpp" />
+		<Unit filename="../DataCollector.hpp" />
+		<Unit filename="../DoublePole.cpp" />
+		<Unit filename="../DoublePole.hpp" />
+		<Unit filename="../Enumerations.h" />
+		<Unit filename="../Experiment.cpp" />
+		<Unit filename="../Experiment.hpp" />
+		<Unit filename="../FitnessFunctions.cpp" />
+		<Unit filename="../FitnessFunctions.hpp" />
+		<Unit filename="../GEPNN.cpp" />
+		<Unit filename="../GEPNN.hpp" />
+		<Unit filename="../GEPNet.cpp" />
+		<Unit filename="../GEPNet.hpp" />
+		<Unit filename="../Individual.cpp" />
+		<Unit filename="../Individual.hpp" />
+		<Unit filename="../Model.cpp" />
+		<Unit filename="../Model.hpp" />
+		<Unit filename="../Multigenic6BitCalc.py" />
+		<Unit filename="../Neuron.cpp" />
+		<Unit filename="../Neuron.hpp" />
+		<Unit filename="../PPC.cpp" />
+		<Unit filename="../PPC.hpp" />
+		<Unit filename="../PoleBalancing.cpp" />
+		<Unit filename="../PoleBalancing.hpp" />
+		<Unit filename="../ProbabilisticModelElement.cpp" />
+		<Unit filename="../ProbabilisticModelElement.hpp" />
+		<Unit filename="../Rand.cpp" />
+		<Unit filename="../Rand.hpp" />
+		<Unit filename="../Repo.href.txt" />
+		<Unit filename="../SHCWeight.cpp" />
+		<Unit filename="../SHCWeight.hpp" />
+		<Unit filename="../SHCWeightCollection.cpp" />
+		<Unit filename="../SHCWeightCollection.hpp" />
+		<Unit filename="../Tools.cpp" />
+		<Unit filename="../Tools.hpp" />
+		<Unit filename="../compile-debug.sh" />
+		<Unit filename="../compile.sh" />
+		<Unit filename="../defaults.cfg.txt" />
+		<Unit filename="../rand.h" />
+		<Unit filename="../rngs.h" />
+		<Unit filename="../val.sh" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

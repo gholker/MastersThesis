@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = B7FD376C1209ECD0009A9976 /* MacPDNE */;
+		activeTarget = 8DD76F620486A84900D96B5E /* MacPDNE */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* MacPDNE */,
+		);
+		breakpoints = (
+			B7302065120B3BE4006BD88F /* Experiment.cpp:87 */,
+			B7302125120B5539006BD88F /* PPC.cpp:191 */,
+			B730212E120B57E7006BD88F /* PPC.cpp:77 */,
+			B7302130120B5834006BD88F /* PPC.cpp:83 */,
+			B7302157120B5C6B006BD88F /* Experiment.cpp:118 */,
+			B730216B120B5F96006BD88F /* Experiment.cpp:118 */,
+			B7BC7D96120CA94800335DB7 /* Experiment.cpp:43 */,
+			B7BC7DA8120CA9D000335DB7 /* Experiment.cpp:118 */,
+			B7BC7DEB120CAD2600335DB7 /* Experiment.cpp:118 */,
+		);
+		codeSenseManager = B7FD37711209ECD9009A9976 /* Code sense */;
+		executables = (
+			B7FD376C1209ECD0009A9976 /* MacPDNE */,
+			B7C2ECC713E4DCBD0075693C /* ThesisResults */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					720.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					43,
+					43,
+					20,
+					48,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					793,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 334208498;
+			PBXWorkspaceStateSaveDate = 334208498;
+		};
+		perUserProjectItems = {
+			B782F4B4121E0694008398E8 = B782F4B4121E0694008398E8 /* PBXTextBookmark */;
+			B7BC7E06120CAF6E00335DB7 = B7BC7E06120CAF6E00335DB7 /* PBXTextBookmark */;
+			B7C2EC7913E21E110075693C = B7C2EC7913E21E110075693C /* PBXTextBookmark */;
+			B7C2EC7A13E21E110075693C = B7C2EC7A13E21E110075693C /* PBXTextBookmark */;
+			B7C2EC7B13E21E110075693C = B7C2EC7B13E21E110075693C /* PBXTextBookmark */;
+			B7C2EC7C13E21E110075693C = B7C2EC7C13E21E110075693C /* PBXTextBookmark */;
+			B7C2EC7D13E21E110075693C = B7C2EC7D13E21E110075693C /* PBXTextBookmark */;
+			B7C2ECF113EB9DCD0075693C = B7C2ECF113EB9DCD0075693C /* PBXTextBookmark */;
+			B7C2ECF213EB9DCD0075693C = B7C2ECF213EB9DCD0075693C /* PBXTextBookmark */;
+			B7C2ECF413EB9DCD0075693C = B7C2ECF413EB9DCD0075693C /* PBXTextBookmark */;
+			B7C2ED0513EB9DF40075693C /* PBXTextBookmark */ = B7C2ED0513EB9DF40075693C /* PBXTextBookmark */;
+			B7FD37AF1209EE86009A9976 = B7FD37AF1209EE86009A9976 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B7FD37701209ECD9009A9976 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76F620486A84900D96B5E /* MacPDNE */ = {
+		activeExec = 0;
+		executables = (
+			B7FD376C1209ECD0009A9976 /* MacPDNE */,
+		);
+	};
+	B7302065120B3BE4006BD88F /* Experiment.cpp:87 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327113D78057003C5E61 /* Experiment.cpp */;
+		functionName = "Experiment::run()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 87;
+		location = MacPDNE;
+		modificationTime = 303955853.53948;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B7302125120B5539006BD88F /* PPC.cpp:191 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327913D78057003C5E61 /* PPC.cpp */;
+		functionName = "PrototypeChromosome::createGepNN()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 191;
+		location = MacPDNE;
+		modificationTime = 303955853.540629;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B730212E120B57E7006BD88F /* PPC.cpp:77 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327913D78057003C5E61 /* PPC.cpp */;
+		functionName = "PrototypeChromosome::initProbabilities()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 77;
+		location = MacPDNE;
+		modificationTime = 303955853.541208;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B7302130120B5834006BD88F /* PPC.cpp:83 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327913D78057003C5E61 /* PPC.cpp */;
+		functionName = "PrototypeChromosome::initProbabilities()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 83;
+		location = MacPDNE;
+		modificationTime = 303955853.54185;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B7302157120B5C6B006BD88F /* Experiment.cpp:118 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327113D78057003C5E61 /* Experiment.cpp */;
+		functionName = "Experiment::run()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 118;
+		location = MacPDNE;
+		modificationTime = 303955853.542406;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B730216B120B5F96006BD88F /* Experiment.cpp:118 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327113D78057003C5E61 /* Experiment.cpp */;
+		functionName = "Experiment::run()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 118;
+		location = MacPDNE;
+		modificationTime = 303955853.5430819;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B782F4B4121E0694008398E8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B7FD37771209ED2D009A9976 /* GEPNN.cpp */;
+		name = "GEPNN.cpp: 244";
+		rLen = 0;
+		rLoc = 5649;
+		rType = 0;
+		vrLen = 562;
+		vrLoc = 5350;
+	};
+	B78C325913D78057003C5E61 /* Experiment.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 429}}";
+			sepNavSelRange = "{377, 3}";
+			sepNavVisRange = "{22, 412}";
+		};
+	};
+	B78C325C13D78057003C5E61 /* GEPNN.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 845}}";
+			sepNavSelRange = "{1235, 0}";
+			sepNavVisRange = "{431, 709}";
+		};
+	};
+	B78C325D13D78057003C5E61 /* Individual.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 962}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 533}";
+		};
+	};
+	B78C325E13D78057003C5E61 /* Model.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 923}}";
+			sepNavSelRange = "{1458, 0}";
+			sepNavVisRange = "{716, 782}";
+		};
+	};
+	B78C327113D78057003C5E61 /* Experiment.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1469}}";
+			sepNavSelRange = "{1859, 5}";
+			sepNavVisRange = "{1629, 558}";
+		};
+	};
+	B78C327613D78057003C5E61 /* Model.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 7137}}";
+			sepNavSelRange = "{14389, 0}";
+			sepNavVisRange = "{1713, 1126}";
+		};
+	};
+	B7BC7D96120CA94800335DB7 /* Experiment.cpp:43 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327113D78057003C5E61 /* Experiment.cpp */;
+		functionName = "Experiment::Experiment( short min_a, short max_a, short hl, short ng, short ni, short nw, short pop_size, short total_gens, int (*ffunc)(NeuralNetwork*, bool), long seed = -1L )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 43;
+		location = MacPDNE;
+		modificationTime = 303955853.543826;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B7BC7DA8120CA9D000335DB7 /* Experiment.cpp:118 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327113D78057003C5E61 /* Experiment.cpp */;
+		functionName = "Experiment::run()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 118;
+		location = MacPDNE;
+		modificationTime = 303955853.88393;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B7BC7DEB120CAD2600335DB7 /* Experiment.cpp:118 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B78C327113D78057003C5E61 /* Experiment.cpp */;
+		functionName = "Experiment::run()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 118;
+		location = MacPDNE;
+		modificationTime = 303955853.545853;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B7BC7E06120CAF6E00335DB7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B7FD377B1209ED2D009A9976 /* PPC.cpp */;
+		name = "PPC.cpp: 272";
+		rLen = 0;
+		rLoc = 6437;
+		rType = 0;
+		vrLen = 851;
+		vrLoc = 889;
+	};
+	B7C2EC7913E21E110075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B7FD37781209ED2D009A9976 /* GEPNN.hpp */;
+		name = "GEPNN.hpp: 58";
+		rLen = 0;
+		rLoc = 1235;
+		rType = 0;
+		vrLen = 709;
+		vrLoc = 431;
+	};
+	B7C2EC7A13E21E110075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B78C325913D78057003C5E61 /* Experiment.hpp */;
+		name = "Experiment.hpp: 28";
+		rLen = 3;
+		rLoc = 377;
+		rType = 0;
+		vrLen = 412;
+		vrLoc = 22;
+	};
+	B7C2EC7B13E21E110075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B78C327113D78057003C5E61 /* Experiment.cpp */;
+		name = "Experiment.cpp: 85";
+		rLen = 5;
+		rLoc = 1859;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 1629;
+	};
+	B7C2EC7C13E21E110075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B78C325D13D78057003C5E61 /* Individual.hpp */;
+		name = "Individual.hpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 0;
+	};
+	B7C2EC7D13E21E110075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B78C325E13D78057003C5E61 /* Model.hpp */;
+		name = "Model.hpp: 65";
+		rLen = 0;
+		rLoc = 1458;
+		rType = 0;
+		vrLen = 782;
+		vrLoc = 716;
+	};
+	B7C2ECC713E4DCBD0075693C /* ThesisResults */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = B7C2ECC813E4DCBD0075693C /* MacPDNE */;
+		libgmallocEnabled = 0;
+		name = ThesisResults;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = /Users/gholker/Desktop/PDNE_code/PDNE/ThesisResults;
+	};
+	B7C2ECC813E4DCBD0075693C /* MacPDNE */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = MacPDNE;
+		path = /Users/gholker/Desktop/PDNE_code/PDNE/ThesisResults/MacPDNE;
+		sourceTree = "<absolute>";
+	};
+	B7C2ECF113EB9DCD0075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B78C327613D78057003C5E61 /* Model.cpp */;
+		name = "Model.cpp: 541";
+		rLen = 0;
+		rLoc = 14389;
+		rType = 0;
+		vrLen = 1126;
+		vrLoc = 1713;
+	};
+	B7C2ECF213EB9DCD0075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B7C2ECF313EB9DCD0075693C /* delete_results.sh */;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+		rType = 0;
+	};
+	B7C2ECF313EB9DCD0075693C /* delete_results.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = delete_results.sh;
+		path = /Users/gholker/Desktop/PDNE_code/PDNE/ThesisResults/2.1.1_SIX_MUX_100/delete_results.sh;
+		sourceTree = "<absolute>";
+	};
+	B7C2ECF413EB9DCD0075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B7C2ECF513EB9DCD0075693C /* delete_results.sh */;
+		name = "delete_results.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 42;
+		vrLoc = 0;
+	};
+	B7C2ECF513EB9DCD0075693C /* delete_results.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = delete_results.sh;
+		path = /Users/gholker/Desktop/PDNE_code/PDNE/ThesisResults/2.1.1_SIX_MUX_100/delete_results.sh;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 429}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 42}";
+		};
+	};
+	B7C2ED0513EB9DF40075693C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B7C2ECF513EB9DCD0075693C /* delete_results.sh */;
+		name = "delete_results.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 42;
+		vrLoc = 0;
+	};
+	B7FD376C1209ECD0009A9976 /* MacPDNE */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MacPDNE;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProductDirectory>>";
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eflags = 1;
+			$es = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$rax = 1;
+			$rbp = 1;
+			$rbx = 1;
+			$rcx = 1;
+			$rdi = 1;
+			$rdx = 1;
+			$rip = 1;
+			$rsi = 1;
+			$rsp = 1;
+			$ss = 1;
+		};
+	};
+	B7FD37701209ECD9009A9976 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B7FD37711209ECD9009A9976 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B7FD37771209ED2D009A9976 /* GEPNN.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = GEPNN.cpp;
+		path = /Users/gholker/Desktop/PDNE_code/PDNE/GEPNN.cpp;
+		sourceTree = "<absolute>";
+	};
+	B7FD37781209ED2D009A9976 /* GEPNN.hpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = GEPNN.hpp;
+		path = /Users/gholker/Desktop/PDNE_code/PDNE/GEPNN.hpp;
+		sourceTree = "<absolute>";
+	};
+	B7FD377B1209ED2D009A9976 /* PPC.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = PPC.cpp;
+		path = /Users/gholker/Desktop/PDNE_code/PDNE/PPC.cpp;
+		sourceTree = "<absolute>";
+	};
+	B7FD37AF1209EE86009A9976 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6859E8B029090EE04C91782 /* MacPDNE.1 */;
+		name = "MacPDNE.1: 11";
+		rLen = 0;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 1604;
+		vrLoc = 0;
+	};
+	C6859E8B029090EE04C91782 /* MacPDNE.1 */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1027}}";
+			sepNavSelRange = "{441, 0}";
+			sepNavVisRange = "{0, 1604}";
+		};
+	};
+}

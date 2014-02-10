@@ -1,0 +1,3 @@
+start Win32-PDNE.exe pop_size_10.cfg pop_size_5.cfg pop_size_20.cfg gm_pop0_prob0.cfg gm_pop025_prob025.cfg gm_pop025_prob050.cfg gm_pop025_prob075.cfg gm_pop050_prob025.cfg gm_pop050_prob050.cfg gm_pop050_prob075.cfg gm_pop075_prob025.cfg gm_pop075_prob050.cfg gm_pop075_prob075.cfg gm_pop100_prob025.cfg gm_pop100_prob050.cfg gm_pop100_prob075.cfg
+start Win32-PDNE.exe size4.cfg size6.cfg size8.cfg pipe_p4p3.cfg pipe_p4p5.cfg pipe_p4p5.cfg pipe_p5p3.cfg pipe_p5p5.cfg pipe_p5p5.cfg pipe_p6p3.cfg pipe_p6p5.cfg pipe_p6p5.cfg pipe_lr0025.cfg pipe_lr0050.cfg pipe_lr0075.cfg pipe_lr0100.cfg pipe_lr0125.cfg pipe_lr0175.cfg pipe_lr0200.cfg pipe_lr0015.cfg
+

@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* MacPDNE.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* MacPDNE.1 */; };
+		B78C327F13D78057003C5E61 /* ActivationFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326713D78057003C5E61 /* ActivationFunctions.cpp */; };
+		B78C328013D78057003C5E61 /* BitwiseWeight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326813D78057003C5E61 /* BitwiseWeight.cpp */; };
+		B78C328113D78057003C5E61 /* BitwiseWeights.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326913D78057003C5E61 /* BitwiseWeights.cpp */; };
+		B78C328213D78057003C5E61 /* Boot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326A13D78057003C5E61 /* Boot.cpp */; };
+		B78C328313D78057003C5E61 /* CfgFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326B13D78057003C5E61 /* CfgFile.cpp */; };
+		B78C328413D78057003C5E61 /* CGPGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326C13D78057003C5E61 /* CGPGraph.cpp */; };
+		B78C328513D78057003C5E61 /* CGPModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326D13D78057003C5E61 /* CGPModel.cpp */; };
+		B78C328613D78057003C5E61 /* CGPModelNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326E13D78057003C5E61 /* CGPModelNode.cpp */; };
+		B78C328713D78057003C5E61 /* DataCollector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C326F13D78057003C5E61 /* DataCollector.cpp */; };
+		B78C328813D78057003C5E61 /* DoublePole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327013D78057003C5E61 /* DoublePole.cpp */; };
+		B78C328913D78057003C5E61 /* Experiment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327113D78057003C5E61 /* Experiment.cpp */; };
+		B78C328A13D78057003C5E61 /* FitnessFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327213D78057003C5E61 /* FitnessFunctions.cpp */; };
+		B78C328B13D78057003C5E61 /* GEPNet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327313D78057003C5E61 /* GEPNet.cpp */; };
+		B78C328C13D78057003C5E61 /* GEPNN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327413D78057003C5E61 /* GEPNN.cpp */; };
+		B78C328D13D78057003C5E61 /* Individual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327513D78057003C5E61 /* Individual.cpp */; };
+		B78C328E13D78057003C5E61 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327613D78057003C5E61 /* Model.cpp */; };
+		B78C328F13D78057003C5E61 /* Neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327713D78057003C5E61 /* Neuron.cpp */; };
+		B78C329013D78057003C5E61 /* PoleBalancing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327813D78057003C5E61 /* PoleBalancing.cpp */; };
+		B78C329113D78057003C5E61 /* PPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327913D78057003C5E61 /* PPC.cpp */; };
+		B78C329213D78057003C5E61 /* ProbabilisticModelElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327A13D78057003C5E61 /* ProbabilisticModelElement.cpp */; };
+		B78C329313D78057003C5E61 /* Rand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327B13D78057003C5E61 /* Rand.cpp */; };
+		B78C329413D78057003C5E61 /* SHCWeight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327C13D78057003C5E61 /* SHCWeight.cpp */; };
+		B78C329513D78057003C5E61 /* SHCWeightCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327D13D78057003C5E61 /* SHCWeightCollection.cpp */; };
+		B78C329613D78057003C5E61 /* Tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B78C327E13D78057003C5E61 /* Tools.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* MacPDNE.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* MacPDNE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacPDNE; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78C324C13D78057003C5E61 /* DataCollectionDataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataCollectionDataTypes.h; path = ../DataCollectionDataTypes.h; sourceTree = SOURCE_ROOT; };
+		B78C324D13D78057003C5E61 /* Enumerations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enumerations.h; path = ../Enumerations.h; sourceTree = SOURCE_ROOT; };
+		B78C324E13D78057003C5E61 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rand.h; path = ../rand.h; sourceTree = SOURCE_ROOT; };
+		B78C324F13D78057003C5E61 /* rngs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rngs.h; path = ../rngs.h; sourceTree = SOURCE_ROOT; };
+		B78C325013D78057003C5E61 /* ActivationFunctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ActivationFunctions.hpp; path = ../ActivationFunctions.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325113D78057003C5E61 /* BitwiseWeight.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BitwiseWeight.hpp; path = ../BitwiseWeight.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325213D78057003C5E61 /* BitwiseWeights.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BitwiseWeights.hpp; path = ../BitwiseWeights.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325313D78057003C5E61 /* CfgFile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CfgFile.hpp; path = ../CfgFile.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325413D78057003C5E61 /* CGPGraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CGPGraph.hpp; path = ../CGPGraph.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325513D78057003C5E61 /* CGPModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CGPModel.hpp; path = ../CGPModel.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325613D78057003C5E61 /* CGPModelNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CGPModelNode.hpp; path = ../CGPModelNode.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325713D78057003C5E61 /* DataCollector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataCollector.hpp; path = ../DataCollector.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325813D78057003C5E61 /* DoublePole.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DoublePole.hpp; path = ../DoublePole.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325913D78057003C5E61 /* Experiment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Experiment.hpp; path = ../Experiment.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325A13D78057003C5E61 /* FitnessFunctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FitnessFunctions.hpp; path = ../FitnessFunctions.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325B13D78057003C5E61 /* GEPNet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GEPNet.hpp; path = ../GEPNet.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325C13D78057003C5E61 /* GEPNN.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GEPNN.hpp; path = ../GEPNN.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325D13D78057003C5E61 /* Individual.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Individual.hpp; path = ../Individual.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325E13D78057003C5E61 /* Model.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Model.hpp; path = ../Model.hpp; sourceTree = SOURCE_ROOT; };
+		B78C325F13D78057003C5E61 /* Neuron.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Neuron.hpp; path = ../Neuron.hpp; sourceTree = SOURCE_ROOT; };
+		B78C326013D78057003C5E61 /* PoleBalancing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PoleBalancing.hpp; path = ../PoleBalancing.hpp; sourceTree = SOURCE_ROOT; };
+		B78C326113D78057003C5E61 /* PPC.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PPC.hpp; path = ../PPC.hpp; sourceTree = SOURCE_ROOT; };
+		B78C326213D78057003C5E61 /* ProbabilisticModelElement.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ProbabilisticModelElement.hpp; path = ../ProbabilisticModelElement.hpp; sourceTree = SOURCE_ROOT; };
+		B78C326313D78057003C5E61 /* Rand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Rand.hpp; path = ../Rand.hpp; sourceTree = SOURCE_ROOT; };
+		B78C326413D78057003C5E61 /* SHCWeight.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SHCWeight.hpp; path = ../SHCWeight.hpp; sourceTree = SOURCE_ROOT; };
+		B78C326513D78057003C5E61 /* SHCWeightCollection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SHCWeightCollection.hpp; path = ../SHCWeightCollection.hpp; sourceTree = SOURCE_ROOT; };
+		B78C326613D78057003C5E61 /* Tools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tools.hpp; path = ../Tools.hpp; sourceTree = SOURCE_ROOT; };
+		B78C326713D78057003C5E61 /* ActivationFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ActivationFunctions.cpp; path = ../ActivationFunctions.cpp; sourceTree = SOURCE_ROOT; };
+		B78C326813D78057003C5E61 /* BitwiseWeight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BitwiseWeight.cpp; path = ../BitwiseWeight.cpp; sourceTree = SOURCE_ROOT; };
+		B78C326913D78057003C5E61 /* BitwiseWeights.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BitwiseWeights.cpp; path = ../BitwiseWeights.cpp; sourceTree = SOURCE_ROOT; };
+		B78C326A13D78057003C5E61 /* Boot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Boot.cpp; path = ../Boot.cpp; sourceTree = SOURCE_ROOT; };
+		B78C326B13D78057003C5E61 /* CfgFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CfgFile.cpp; path = ../CfgFile.cpp; sourceTree = SOURCE_ROOT; };
+		B78C326C13D78057003C5E61 /* CGPGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGPGraph.cpp; path = ../CGPGraph.cpp; sourceTree = SOURCE_ROOT; };
+		B78C326D13D78057003C5E61 /* CGPModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGPModel.cpp; path = ../CGPModel.cpp; sourceTree = SOURCE_ROOT; };
+		B78C326E13D78057003C5E61 /* CGPModelNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGPModelNode.cpp; path = ../CGPModelNode.cpp; sourceTree = SOURCE_ROOT; };
+		B78C326F13D78057003C5E61 /* DataCollector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataCollector.cpp; path = ../DataCollector.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327013D78057003C5E61 /* DoublePole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DoublePole.cpp; path = ../DoublePole.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327113D78057003C5E61 /* Experiment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Experiment.cpp; path = ../Experiment.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327213D78057003C5E61 /* FitnessFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FitnessFunctions.cpp; path = ../FitnessFunctions.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327313D78057003C5E61 /* GEPNet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GEPNet.cpp; path = ../GEPNet.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327413D78057003C5E61 /* GEPNN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GEPNN.cpp; path = ../GEPNN.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327513D78057003C5E61 /* Individual.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Individual.cpp; path = ../Individual.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327613D78057003C5E61 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Model.cpp; path = ../Model.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327713D78057003C5E61 /* Neuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Neuron.cpp; path = ../Neuron.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327813D78057003C5E61 /* PoleBalancing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PoleBalancing.cpp; path = ../PoleBalancing.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327913D78057003C5E61 /* PPC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PPC.cpp; path = ../PPC.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327A13D78057003C5E61 /* ProbabilisticModelElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProbabilisticModelElement.cpp; path = ../ProbabilisticModelElement.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327B13D78057003C5E61 /* Rand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rand.cpp; path = ../Rand.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327C13D78057003C5E61 /* SHCWeight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SHCWeight.cpp; path = ../SHCWeight.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327D13D78057003C5E61 /* SHCWeightCollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SHCWeightCollection.cpp; path = ../SHCWeightCollection.cpp; sourceTree = SOURCE_ROOT; };
+		B78C327E13D78057003C5E61 /* Tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tools.cpp; path = ../Tools.cpp; sourceTree = SOURCE_ROOT; };
+		B7C2ECAB13E4DB430075693C /* ThesisResults-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThesisResults-Info.plist"; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* MacPDNE.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MacPDNE.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* MacPDNE */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				B7C2ECAB13E4DB430075693C /* ThesisResults-Info.plist */,
+			);
+			name = MacPDNE;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B78C324C13D78057003C5E61 /* DataCollectionDataTypes.h */,
+				B78C324D13D78057003C5E61 /* Enumerations.h */,
+				B78C324E13D78057003C5E61 /* rand.h */,
+				B78C324F13D78057003C5E61 /* rngs.h */,
+				B78C325013D78057003C5E61 /* ActivationFunctions.hpp */,
+				B78C325113D78057003C5E61 /* BitwiseWeight.hpp */,
+				B78C325213D78057003C5E61 /* BitwiseWeights.hpp */,
+				B78C325313D78057003C5E61 /* CfgFile.hpp */,
+				B78C325413D78057003C5E61 /* CGPGraph.hpp */,
+				B78C325513D78057003C5E61 /* CGPModel.hpp */,
+				B78C325613D78057003C5E61 /* CGPModelNode.hpp */,
+				B78C325713D78057003C5E61 /* DataCollector.hpp */,
+				B78C325813D78057003C5E61 /* DoublePole.hpp */,
+				B78C325913D78057003C5E61 /* Experiment.hpp */,
+				B78C325A13D78057003C5E61 /* FitnessFunctions.hpp */,
+				B78C325B13D78057003C5E61 /* GEPNet.hpp */,
+				B78C325C13D78057003C5E61 /* GEPNN.hpp */,
+				B78C325D13D78057003C5E61 /* Individual.hpp */,
+				B78C325E13D78057003C5E61 /* Model.hpp */,
+				B78C325F13D78057003C5E61 /* Neuron.hpp */,
+				B78C326013D78057003C5E61 /* PoleBalancing.hpp */,
+				B78C326113D78057003C5E61 /* PPC.hpp */,
+				B78C326213D78057003C5E61 /* ProbabilisticModelElement.hpp */,
+				B78C326313D78057003C5E61 /* Rand.hpp */,
+				B78C326413D78057003C5E61 /* SHCWeight.hpp */,
+				B78C326513D78057003C5E61 /* SHCWeightCollection.hpp */,
+				B78C326613D78057003C5E61 /* Tools.hpp */,
+				B78C326713D78057003C5E61 /* ActivationFunctions.cpp */,
+				B78C326813D78057003C5E61 /* BitwiseWeight.cpp */,
+				B78C326913D78057003C5E61 /* BitwiseWeights.cpp */,
+				B78C326A13D78057003C5E61 /* Boot.cpp */,
+				B78C326B13D78057003C5E61 /* CfgFile.cpp */,
+				B78C326C13D78057003C5E61 /* CGPGraph.cpp */,
+				B78C326D13D78057003C5E61 /* CGPModel.cpp */,
+				B78C326E13D78057003C5E61 /* CGPModelNode.cpp */,
+				B78C326F13D78057003C5E61 /* DataCollector.cpp */,
+				B78C327013D78057003C5E61 /* DoublePole.cpp */,
+				B78C327113D78057003C5E61 /* Experiment.cpp */,
+				B78C327213D78057003C5E61 /* FitnessFunctions.cpp */,
+				B78C327313D78057003C5E61 /* GEPNet.cpp */,
+				B78C327413D78057003C5E61 /* GEPNN.cpp */,
+				B78C327513D78057003C5E61 /* Individual.cpp */,
+				B78C327613D78057003C5E61 /* Model.cpp */,
+				B78C327713D78057003C5E61 /* Neuron.cpp */,
+				B78C327813D78057003C5E61 /* PoleBalancing.cpp */,
+				B78C327913D78057003C5E61 /* PPC.cpp */,
+				B78C327A13D78057003C5E61 /* ProbabilisticModelElement.cpp */,
+				B78C327B13D78057003C5E61 /* Rand.cpp */,
+				B78C327C13D78057003C5E61 /* SHCWeight.cpp */,
+				B78C327D13D78057003C5E61 /* SHCWeightCollection.cpp */,
+				B78C327E13D78057003C5E61 /* Tools.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* MacPDNE */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* MacPDNE.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* MacPDNE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "MacPDNE" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacPDNE;
+			productInstallPath = "$(HOME)/bin";
+			productName = MacPDNE;
+			productReference = 8DD76F6C0486A84900D96B5E /* MacPDNE */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "MacPDNE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* MacPDNE */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* MacPDNE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78C327F13D78057003C5E61 /* ActivationFunctions.cpp in Sources */,
+				B78C328013D78057003C5E61 /* BitwiseWeight.cpp in Sources */,
+				B78C328113D78057003C5E61 /* BitwiseWeights.cpp in Sources */,
+				B78C328213D78057003C5E61 /* Boot.cpp in Sources */,
+				B78C328313D78057003C5E61 /* CfgFile.cpp in Sources */,
+				B78C328413D78057003C5E61 /* CGPGraph.cpp in Sources */,
+				B78C328513D78057003C5E61 /* CGPModel.cpp in Sources */,
+				B78C328613D78057003C5E61 /* CGPModelNode.cpp in Sources */,
+				B78C328713D78057003C5E61 /* DataCollector.cpp in Sources */,
+				B78C328813D78057003C5E61 /* DoublePole.cpp in Sources */,
+				B78C328913D78057003C5E61 /* Experiment.cpp in Sources */,
+				B78C328A13D78057003C5E61 /* FitnessFunctions.cpp in Sources */,
+				B78C328B13D78057003C5E61 /* GEPNet.cpp in Sources */,
+				B78C328C13D78057003C5E61 /* GEPNN.cpp in Sources */,
+				B78C328D13D78057003C5E61 /* Individual.cpp in Sources */,
+				B78C328E13D78057003C5E61 /* Model.cpp in Sources */,
+				B78C328F13D78057003C5E61 /* Neuron.cpp in Sources */,
+				B78C329013D78057003C5E61 /* PoleBalancing.cpp in Sources */,
+				B78C329113D78057003C5E61 /* PPC.cpp in Sources */,
+				B78C329213D78057003C5E61 /* ProbabilisticModelElement.cpp in Sources */,
+				B78C329313D78057003C5E61 /* Rand.cpp in Sources */,
+				B78C329413D78057003C5E61 /* SHCWeight.cpp in Sources */,
+				B78C329513D78057003C5E61 /* SHCWeightCollection.cpp in Sources */,
+				B78C329613D78057003C5E61 /* Tools.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = MacPDNE;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = MacPDNE;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/gholker/Downloads/boost_1_44_0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/gholker/Downloads/boost_1_44_0;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "MacPDNE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "MacPDNE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
